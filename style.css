@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 20%;
+    height: 625px;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    */background-color: #323232;
+    margin-inline: auto;
+    margin-top: 140px;
+    border-radius:10px;
+}
+.box{
+    position: relative;
+    width:280px;
+    margin-inline: auto;
+}
+.calc{
+   padding-top: 185px;
+   padding-bottom: 10px;
+   border-bottom: 2px solid #74EBD5;
+}
+#calc{
+  position: absolute;
+  top: 120px;
+  font-size: 1.5rem;
+  display: none;
+}
+p{
+    color: white;
+}
+.end{
+    position: absolute;
+    font-size: 2.4rem;
+    right: 0;
+    top: 70px;
+}
+.input{
+    position: absolute;
+    right: 0;
+    top:85px ;
+    font-size: 1.7rem;
+    color: white;
+}
+.show{
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.multi,.percent,.clear,.negative,.left{
+    padding: 15px 20px;
+    border-radius: 999px;
+    background-color: #74EBD5;
+    font-size: 1.2rem;
+    border: 2px solid #74EBD5;
+    cursor: pointer;
+}
+.final,.plus{
+    padding: 15px 20px;
+    border-radius: 999px;
+    background-color: #74EBD5;
+    font-size: 1.2rem;
+    border: 1px solid #74EBD5;
+    cursor: pointer;
+}
+.divide,.minus{
+    padding: 15px 25px;
+    border-radius: 999px;
+    background-color: #74EBD5;
+    font-size: 1.4rem;
+    text-align: center;
+    border: 1px solid #74EBD5;
+    cursor: pointer;
+}
+button{
+    color: white;
+    transition: all 0.1s ease-in;
+}
+button:hover{
+    opacity: 70%;
+}
+.number{
+    padding: 15px 20px;
+    border-radius: 999px;
+    background-color: #F8F8F8;
+    font-size: 1.2rem;
+    color: black;
+    text-align: center;
+    border: 1px solid;
+    cursor: pointer;
+}
+.point{
+    padding: 15px 25px;
+    border-radius: 999px;
+    background-color: #F8F8F8;
+    font-size: 1.4rem;
+    text-align: center;
+    color: black;
+    border: 1px solid;
+    cursor: pointer;
+}
